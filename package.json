@@ -1,0 +1,33 @@
+{
+  "private" : true,
+  "name" : "unmodulizer",
+  "version" : "0.0.1",
+  "author" : "Lloyd Smith II",
+  "contributors" : [
+    {
+      "name" : "Lloyd Smith",
+      "email" : "lloyd.smith@gmail.com"
+    }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "ssh://git@bitbucket.org/les2/unmodulizer.git"
+  },
+  "keywords" : [
+      "AMD", "Asynchronous Module Defintion", "Optimization", "RequireJS", "erase dependencies", "dependencies"
+  ],
+  "dependencies" : {
+    "winston": "0.6.2",
+    "esprima": "1.0.2",
+    "escodegen": "0.0.22",
+    "optimist": "0.4.0"
+  },
+  "engine" : {
+    "node" : ">=0.10.1"
+  },
+  "main" : "./unmodulizer.js",
+  "bin" : {
+    "unmodulize": "./cli.js"
+  },
+  "license" : "http://www.apache.org/licenses/LICENSE-2.0"
+}
